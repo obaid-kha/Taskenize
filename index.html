@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="luxury">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -19,12 +19,49 @@
         <a class="btn btn-ghost text-xl">Taskey</a>
       </div>
       <div class="flex-none">
-        <button class="btn btn-square btn-ghost">
+        <a class="btn btn-square btn-ghost" 
+        href="https://github.com/obaid-kha/Taskenize"
+        target="_blank">
           <i class="ti ti-brand-github text-xl" ></i>
-        </button>
+        </a>
       </div>
     </div>
-
+    <!-- Mark : Content -->
+     <main class="flex justify-center items-center
+     min-h-screen">
+      <div class="card bg-base-100 w-60 sm:w-72
+      md:w-80 shadow-2xl mb-10">
+        <figure>
+          <img
+            src="public/pattern.png"
+            alt="pattern" />
+        </figure>
+        <div class="card-body">
+         <!-- Task Input -->
+          <form>
+            <input type="text"
+             placeholder="Add your task"
+              class="input input-bordered w-full max-w-xs" 
+              data-user-input
+            />
+          </form>
+          <!-- Task List -->
+            <div class="form-control">
+              <label class="label cursor-pointer">
+                <span class="label-text">Remember me</span>
+                <input type="checkbox" class="checkbox checkbox-primary" />
+              </label>
+                 <!-- Task List -->
+            <div class="form-control">
+              <label class="label cursor-pointer
+              bg-lime-50 rounded ">
+                <span class="label-text">Remember me</span>
+                <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
+              </label>
+            </div>
+        </div>
+      </div>
+     </main>
     <!-- script -->
     <script src="src/main.js" type="module"></script>
   </body>

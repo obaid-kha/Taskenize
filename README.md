@@ -17,4 +17,10 @@ step 3--
 create and linked  `index.css` file with @tailwind directive
 linked `index.css` with `main.css`
 and linked `main.js ` with `index.html`
-install tailwind 
+install tailwind intellisence extension
+
+3)--
+daisyui installation
+
+`pnpm add -D daisyui@`
+
